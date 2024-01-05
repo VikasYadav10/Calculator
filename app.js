@@ -2,7 +2,7 @@ let btns = document.querySelectorAll("button");
 let input = document.querySelector("input");
 
 btns.forEach((btn) => {
-  btn.addEventListener("click", function (e) {
+  btn.addEventListener("click", function () {
     if (this.innerText === "AC") {
       input.value = "";
     } else if (this.innerText === "=") {
