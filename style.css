@@ -1,0 +1,70 @@
+body {
+  background-color: #232323;
+}
+.container {
+  width: 300px;
+  height: 500px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.display {
+  width: 100%;
+  height: 30%;
+}
+.display input {
+  width: 98.8%;
+  height: 100%;
+  background-color: #1c1c1c;
+  color: #d4d4d2;
+  font-size: 60px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.btn-container {
+  width: 100%;
+  height: 70%;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn-container button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+#zero {
+  width: 135px;
+  border-radius: 150px;
+}
+.frow button {
+  background-color: #d4d4d2;
+  color: #1c1c1c;
+}
+.trow button,
+.srow button,
+.furow button,
+.fvrow button {
+  background-color: #505050;
+  color: #d4d4d2;
+}
+#m,
+#mul,
+#div,
+#p,
+#e {
+  background-color: #ff9500fd;
+  color: #d4d4d2;
+}
